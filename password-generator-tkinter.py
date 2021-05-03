@@ -13,7 +13,7 @@ def passwordGenerator():
         for s in range(lenghtX):
             password += choice(characters)
         
-        file = open("user.txt", "w")
+        file = open("password.txt", "w")
         file.write(f"Your password is: {password} \n")
         file.close()
         print("User", lenghtX, "has been registered successfully.")
