@@ -3,6 +3,7 @@
 It's a password generator program for linux users.
 
 Install Tkinter
+  
   sudo apt-get install python3-tk
   
 Run python file.
